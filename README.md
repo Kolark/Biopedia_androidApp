@@ -1,2 +1,0 @@
-# Biopedia_androidApp
- 
