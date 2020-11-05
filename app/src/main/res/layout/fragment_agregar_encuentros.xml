@@ -11,7 +11,7 @@
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:layout_width="403dp"
+            android:layout_width="419dp"
             android:layout_height="356dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -25,26 +25,33 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="BioEntidad" />
+                android:background="@color/bg3text"
+                android:text="BioEntidad"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/txthbioidentidad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="--bioidentidad--" />
+                android:inputType="textPersonName" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Describe tu Encuentro" />
+                android:background="@color/bg3text"
+                android:text="Describe tu Encuentro"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/txthdescripcion"
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
+                android:backgroundTint="@color/colorPrimary"
                 android:ems="10"
                 android:gravity="start|top"
                 android:inputType="textMultiLine" />
@@ -54,13 +61,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="88dp"
+                android:backgroundTint="@color/bg3text"
                 android:onClick="onClick"
                 android:text="Agregar" />
         </LinearLayout>
 
         <TextView
             android:id="@+id/txtAe"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="AgregarEncuentro"
             android:textSize="15pt"
@@ -75,9 +83,10 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="56dp"
+            android:layout_marginTop="68dp"
+            android:background="#2B2B2B"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.879"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@drawable/ic_launcher_foreground" />

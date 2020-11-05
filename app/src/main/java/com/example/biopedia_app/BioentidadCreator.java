@@ -16,7 +16,7 @@ public class BioentidadCreator {
 
     public static Animal[] obtenerAnimales1(){
 
-        int cantidad = 10;
+        int cantidad = 100;
 
         ArrayList<String[]> lista1 = CSVREADER.Read(R.raw.fauna);
         Animal[] animales = new Animal[cantidad];
@@ -57,7 +57,7 @@ public class BioentidadCreator {
     }
 
     public static Planta[] obtenerPlantas1(){
-        int cantidad = 10;
+        int cantidad = 100;
         ArrayList<String[]> lista1 = CSVREADER.Read(R.raw.especies);
         Planta[] plantas = new Planta[cantidad];
         for (int i=1;i<cantidad+1;i++){

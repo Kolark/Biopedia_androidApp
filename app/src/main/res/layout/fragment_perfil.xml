@@ -18,20 +18,24 @@
 
 
 
+
+
         ]]>
 
         <TextView
             android:id="@+id/txtprueba"
-            android:layout_width="120dp"
-            android:layout_height="77dp"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:background="#D5D5D5"
+            android:gravity="center"
             android:text="Perfil"
             android:textSize="15pt"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintHorizontal_bias="0.666"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.918" />
+            app:layout_constraintVertical_bias="0.0" />
 
         <LinearLayout
             android:layout_width="200dp"
@@ -42,13 +46,16 @@
             app:layout_constraintHorizontal_bias="0.075"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.039">
+            app:layout_constraintVertical_bias="0.118">
 
             <TextView
                 android:id="@+id/Nombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nombre" />
+                android:background="@color/bg3text"
+                android:text="Nombre"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txtNombre"
@@ -60,7 +67,10 @@
                 android:id="@+id/Celular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Celular" />
+                android:background="@color/bg3text"
+                android:text="Celular"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txtCelular"
@@ -72,7 +82,10 @@
                 android:id="@+id/Email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Email Registrado" />
+                android:background="@color/bg3text"
+                android:text="Email Registrado"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txtEmail"
@@ -83,15 +96,15 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="156dp"
-            android:layout_height="170dp"
+            android:layout_width="143dp"
+            android:layout_height="139dp"
             android:src="@drawable/ic_launcher_foreground"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.881"
+            app:layout_constraintHorizontal_bias="0.94"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.033" />
+            app:layout_constraintVertical_bias="0.165" />
 
         <ListView
             android:id="@+id/perfil_list"
