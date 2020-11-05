@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynav"
+    app:startDestination="@id/perfil">
+
+    <fragment
+        android:id="@+id/perfil"
+        android:name="com.example.biopedia_app.Perfil"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/biopedia"
+        android:name="com.example.biopedia_app.Biopedia"
+        android:label="fragment_biopedia"
+        tools:layout="@layout/fragment_biopedia" />
+    <fragment
+        android:id="@+id/agregarEncuentros"
+        android:name="com.example.biopedia_app.agregarEncuentros"
+        android:label="fragment_agregar_encuentros"
+        tools:layout="@layout/fragment_agregar_encuentros" />
+</navigation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/biopedia"
+        android:title="Home" android:icon="@drawable/home_icon"
+        />
+    <item
+        android:id="@+id/perfil"
+        android:title="Perfil" android:icon="@drawable/perfil_icon"
+        />
+    <item
+        android:id="@+id/agregarEncuentros"
+        android:title="Agregar" android:icon="@drawable/agregar"
+        />
+</menu>
